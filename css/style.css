@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 1.5em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  margin: 1.5rem;
+}
+
+.calculateDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculateDiv input {
+  height: 2rem;
+  margin: 3rem;
+  font-size: 1.3em;
+}
+.calculateDiv .calculateBtn {
+  height: 2.3rem;
+  margin: 3rem;
+  background-color: #04AA6D;
+  background-color: #04AA6D;
+  color: white;
+  min-width: 160px;
+  font-size: 16px;
+  border: none;
+}
+.calculateDiv .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  height: 2.3rem;
+  min-width: 160px;
+  margin: 0;
+  font-size: 16px;
+  border: none;
+}
+.calculateDiv .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.calculateDiv .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.calculateDiv .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.calculateDiv .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.calculateDiv .dropdown:hover .dropdown-content {
+  display: block;
+}
+.calculateDiv .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.calculateDiv .calculateBtn:hover {
+  background-color: #3e8e41;
+}
+
+.resultDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(197, 196, 196);
+  width: 100vh;
+  padding: 3rem;
+  margin: 0 auto;
+}
+.resultDiv img {
+  display: none;
+  height: 30rem;
+  margin: 3rem;
+}
+.resultDiv section {
+  display: none;
+  grid-template-rows: repeat(2, 50px);
+  align-items: center;
+  justify-content: center;
+}
+.resultDiv section #weight {
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

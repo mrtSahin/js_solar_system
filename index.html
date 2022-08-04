@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_solar_system</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header><h1>Calculate a weight of an object on a planet</h1></header>
+    <div class="wrapper">
+        <div class="calculateDiv">
+            <input type="blur" id="mass">
+            <div class="dropdown">
+                <button class="dropbtn">Select Planet</button>
+                <div class="dropdown-content">
+                  <a href="#">Earth</a>
+                  <a href="#">Jupiter</a>
+                  <a href="#">Mars</a>
+                  <a href="#">Venus</a>
+                  <a href="#">Merkur</a>
+                  <a href="#">Saturn</a>
+                  <a href="#">Uranus</a>
+                  <a href="#">Moon</a>
+                  <a href="#">Neptun</a>
+                </div>
+            </div>
+            
+            <button class="calculateBtn">Calculate</button>
+        </div>
+        <div class="resultDiv">
+            <img src="../imgs/earth.png">
+            <section>
+                <a>The weight of object on&nbsp;<span>Earth</span></a>
+                <a id="weight">10kg</a>
+            </section>
+            <h3>Mass and planet are required</h3>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
